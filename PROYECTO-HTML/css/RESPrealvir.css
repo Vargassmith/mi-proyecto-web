@@ -1,0 +1,279 @@
+@media (min-width: 866px) and (max-width:1024px) {
+    realidad-1 {
+        background-image: url(../img/FONDOTE.jpg);
+        padding-bottom: 8em;
+        padding-left: 2em;
+        padding-top: 2em;
+    }
+    .realidad-1 h2 {
+        font-family: "Kode Mono", monospace;
+        color:aqua;
+        padding-top: 1.5em;
+        padding-left: 2em;
+    
+    }
+    .realidad-1 p {
+        font-family: "Kode Mono", monospace;
+        width: 100%;
+        line-height: 1,3em;
+        font-size: 1.2em;
+        color:black;
+        padding-top: 1em;
+        padding-left: 2em;
+        font-weight: bold;
+    }
+    .imagen-real {
+        width: 45%;
+        display: inline-block;
+        vertical-align: top;
+        margin-top: 10em;
+        margin-left: 5em;
+    }
+    .texto-real {
+        width: 45%;
+        display: inline-block;
+        vertical-align: top;
+        padding-bottom: 2em;
+        
+    }
+    
+    .catalogo {
+        font-family: "Kode Mono", monospace;
+        text-align: center;
+        font-size: 4em;
+    
+    }
+    
+    .tarjeta {
+        width:100%;
+        margin: 0 auto;
+        text-align: center;
+    }
+    
+    .album {
+        width:80%;
+        box-shadow: 0 4px 8px 0;
+        background-color: rgb(20, 19, 20);
+    
+    }
+    .contenido{
+        padding: 0.5em;
+    }
+    
+    
+    .letra {
+        padding: 1em;
+        color: #da1b94;
+        font-size: 1em;
+    }
+    
+    .precio{
+        color: white;
+    }
+    
+    .catalogo {
+        margin-left: 1em;
+    }
+    
+    .productos {
+        margin-left: 2em;
+        padding-top: 3em;
+    }
+}
+
+
+
+
+
+@media screen and (max-width:600px) {
+    .realidad-1 {
+        background-image: url(../img/FONDOTE.jpg);
+        padding-bottom: 8em;
+        padding-left: 2em;
+        padding-top: 2em;
+    }
+    .realidad-1 h2 {
+        font-family: "Kode Mono", monospace;
+        color:aqua;
+        padding-top: 1.5em;
+        padding-left: 2em;
+    
+    }
+    .realidad-1 p {
+        font-family: "Kode Mono", monospace;
+        width: 150%;
+        line-height: 1,3em;
+        font-size: 1em;
+        color:black;
+        padding-top: 1em;
+        padding-left: 2em;
+        font-weight: bold;
+    }
+    .imagen-real {
+        width: 45%;
+        display: inline-block;
+        vertical-align: top;
+        margin-top: 10em;
+        margin-left: 5em;
+    }
+    .texto-real {
+        width: 45%;
+        display: inline-block;
+        vertical-align: top;
+        padding-bottom: 2em;
+        
+    }
+    
+    .catalogo {
+        font-family: "Kode Mono", monospace;
+        text-align: center;
+        font-size: 4em;
+    
+    }
+    
+    .tarjeta {
+        width:100%;
+        margin: 0 auto;
+        text-align: center;
+    }
+    
+    .album {
+        width:80%;
+        box-shadow: 0 4px 8px 0;
+        background-color: rgb(20, 19, 20);
+    
+    }
+    .contenido{
+        padding: 0.5em;
+    }
+    
+    
+    .letra {
+        padding: 1em;
+        color: #da1b94;
+        font-size: 1em;
+    }
+    
+    .precio{
+        color: white;
+    }
+    
+    .catalogo {
+        margin-left: 1em;
+    }
+    
+    .productos {
+        margin-left: 2em;
+        padding-top: 3em;
+    }
+    .productos {
+        width: 100%;
+    }
+
+    .productos td {
+        width: 100%;
+        display: block;
+    }
+
+    .tarjeta {
+        margin-bottom: 20px;
+    }
+
+    @media screen and (min-width: 601px) {
+        .productos {
+            display: table;
+        }
+
+        .productos td {
+            display: table-cell;
+        }
+
+        .tarjeta {
+            margin-bottom: 0;
+        }
+    }
+}
+
+/* pantalla tableta */
+@media screen and (min-width:600px) and (max-width:900px) {
+    .realidad-1 {
+        background-image: url(../img/FONDOTE.jpg);
+        padding-bottom: 8em;
+        padding-left: 2em;
+        padding-top: 2em;
+    }
+    .realidad-1 h2 {
+        font-family: "Kode Mono", monospace;
+        color:aqua;
+        padding-top: 1.5em;
+        padding-left: 2em;
+    
+    }
+    .realidad-1 p {
+        font-family: "Kode Mono", monospace;
+        width: 100%;
+        line-height: 1,3em;
+        font-size: 1.2em;
+        color:black;
+        padding-top: 1em;
+        padding-left: 2em;
+        font-weight: bold;
+    }
+    .imagen-real {
+        width: 45%;
+        display: inline-block;
+        vertical-align: top;
+        margin-top: 10em;
+        margin-left: 5em;
+    }
+    .texto-real {
+        width: 45%;
+        display: inline-block;
+        vertical-align: top;
+        padding-bottom: 2em;
+        
+    }
+    
+    .catalogo {
+        font-family: "Kode Mono", monospace;
+        text-align: center;
+        font-size: 4em;
+    
+    }
+    
+    .tarjeta {
+        width:100%;
+        margin: 0 auto;
+        text-align: center;
+    }
+    
+    .album {
+        width:80%;
+        box-shadow: 0 4px 8px 0;
+        background-color: rgb(20, 19, 20);
+    
+    }
+    .contenido{
+        padding: 0.5em;
+    }
+    
+    
+    .letra {
+        padding: 1em;
+        color: #da1b94;
+        font-size: 1em;
+    }
+    
+    .precio{
+        color: white;
+    }
+    
+    .catalogo {
+        margin-left: 1em;
+    }
+    
+    .productos {
+        margin-left: 2em;
+        padding-top: 3em;
+    }
+}

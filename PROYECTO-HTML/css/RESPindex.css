@@ -1,0 +1,237 @@
+@media (min-width: 866px) and (max-width:1024px) {
+    .texto-1 {
+        width: 40%;
+        font-size: 1.2em;
+        line-height: 1.4em;
+        font-family: "Kode Mono", monospace;
+        display: inline-block;
+        color: white;
+        padding-left: 2em;
+    }
+    .texto-1 h3 {
+        color: aquamarine;
+        padding-bottom: 1em;
+    }
+    .texto-1 span {
+        color: #da1b94 ;
+    }
+    .texto-1 .cian {
+        color: aquamarine;
+    }
+    
+    
+    .parte-1 {
+        background-image:url(../img/imagen-1.png);
+        background-repeat: no-repeat;
+        background-size: 160%;
+        padding-top: 3em;
+        padding-bottom: 5em;
+    
+    }
+    
+    .informacion {
+        background-color: rgb(0, 0, 0);
+        background-image: url(../img/b.png);
+        background-repeat: no-repeat;
+        padding-top: 12em;
+        padding-bottom: 15em;
+        margin-top: -4em;
+    }
+    
+    .texto-2 {
+        max-width: 100%;
+        width: 40%;
+        font-size: 1em;
+        color: white;
+        font-family: cursive;
+        line-height: 1.3em;
+        padding-left: 0.2em;
+        border-left: solid white;
+        margin-left: 38em;
+        font-family: "Kode Mono", monospace;
+        margin-top: 1em;
+        vertical-align: top;
+    }
+    .texto-2 .cian {
+        color: aquamarine;
+    } 
+    .texto-2 h3 {
+        padding-bottom: 1em;
+        color: aquamarine;
+    }
+    
+    .texto-2 span {
+        color: #da1b94;
+    }
+    
+    footer {
+        text-align:center;
+        background-color: black;
+        color: aquamarine;
+        font-family: fantasy;
+        padding-bottom: 2em;
+        font-size: 1.2em;
+        padding-top: 3em;
+    }
+
+}
+/*celular screen*/
+
+@media screen and (max-width:600px) {
+
+    .texto-1 {
+        width: 90%;
+        font-size: 1em;
+        line-height: 1.2em;
+        font-family: "Kode Mono", monospace;
+        display: inline-block;
+        color: white;
+        padding-left: 2em;
+    }
+    .texto-1 h3 {
+        color: aquamarine;
+        padding-bottom: 1em;
+    }
+    .texto-1 span {
+        color: #da1b94 ;
+    }
+    .texto-1 .cian {
+        color: aquamarine;
+    }
+    
+    
+    .parte-1 {
+        background-image: none;
+        background-color: black;
+        background-size: 120%;
+        padding-top: 3em;
+        padding-bottom: 5em;
+    
+    }
+    
+    .informacion {
+        background-size: 40%;
+        background-color: rgb(0, 0, 0);
+        background-image: url(../img/b\ \(1\).png);
+        background-repeat: no-repeat;
+        padding-top: 12em;
+        padding-bottom: 15em;
+        margin-top: -4em;
+    }
+    
+    .texto-2 {
+        width: 80%;
+        font-size: 1em;
+        color: white;
+        font-family: cursive;
+        line-height: 1.3em;
+        padding-left: 2em;
+        border-left: solid white;
+        margin-left: 1em;
+        font-family: "Kode Mono", monospace;
+        margin-top: 6em;
+        vertical-align: top;
+    }
+    .texto-2 .cian {
+        color: aquamarine;
+    } 
+    .texto-2 h3 {
+        padding-bottom: 1em;
+        color: aquamarine;
+    }
+    
+    .texto-2 span {
+        color: #da1b94;
+    }
+    
+    footer {
+        text-align:center;
+        background-color: black;
+        color: aquamarine;
+        font-family: fantasy;
+        padding-bottom: 2em;
+        font-size: 1.2em;
+        padding-top: 1em;
+    }
+}
+
+
+/* pantalla tableta */
+@media screen and (min-width:600px) and (max-width:900px) {
+
+    .texto-1 {
+        width: 80%;
+        font-size: 1.2em;
+        line-height: 1.4em;
+        font-family: "Kode Mono", monospace;
+        display: inline-block;
+        color: white;
+        padding-left: 2em;
+    }
+    .texto-1 h3 {
+        color: aquamarine;
+        padding-bottom: 1em;
+    }
+    .texto-1 span {
+        color: #da1b94 ;
+    }
+    .texto-1 .cian {
+        color: aquamarine;
+    }
+    
+    
+    .parte-1 {
+        background-image:url(../img/imagen-1.png);
+        background-repeat: no-repeat;
+        background-size: 160%;
+        padding-top: 3em;
+        padding-bottom: 5em;
+    
+    }
+    
+    .informacion {
+        background-color: rgb(0, 0, 0);
+        background-image: url(../img/b.png);
+        background-repeat: no-repeat;
+        padding-top: 12em;
+        padding-bottom: 15em;
+        margin-top: -4em;
+    }
+    
+    .texto-2 {
+        width: 80%;
+        font-size: 1.3em;
+        color: white;
+        font-family: cursive;
+        line-height: 1.3em;
+        padding-left: 2em;
+        border-left: solid white;
+        margin-left: 1em;
+        font-family: "Kode Mono", monospace;
+        margin-top: 30em;
+        vertical-align: top;
+    }
+    .texto-2 .cian {
+        color: aquamarine;
+    } 
+    .texto-2 h3 {
+        padding-bottom: 1em;
+        color: aquamarine;
+    }
+    
+    .texto-2 span {
+        color: #da1b94;
+    }
+    
+    footer {
+        text-align:center;
+        background-color: black;
+        color: aquamarine;
+        font-family: fantasy;
+        padding-bottom: 2em;
+        font-size: 1.2em;
+        padding-top: 3em;
+    }
+
+}
+

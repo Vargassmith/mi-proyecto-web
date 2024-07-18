@@ -1,0 +1,30 @@
+.play-1 {
+    background-image: url(../img/paraplay5\ \(1\).png);
+    padding-bottom: 6em;
+    padding-left: 2em;
+    padding-top: 2em;
+    border-top: dashed #da1b94;
+}
+.texto-play{
+    margin-left: 40em;
+    width: 55%;
+
+}
+
+.play-1 h2 {
+    font-family: "Kode Mono", monospace;
+    color:aqua;
+    padding-top: 1.5em;
+    padding-left: 2em;
+
+}
+.play-1 p {
+    font-family: "Kode Mono", monospace;
+    width: 80%;
+    line-height: 1,3em;
+    font-size: 1.2em;
+    color:white;
+    padding-top: 1em;
+    padding-left: 2em;
+    font-weight: bold;
+}

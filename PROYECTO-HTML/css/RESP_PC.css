@@ -1,0 +1,120 @@
+@media (min-width: 866px) and (max-width:1024px) {
+    .pc-1 {
+        background-image: url(../img/thinkpad\ \(1\).png);
+        padding-bottom: 4em;
+        padding-left: 2em;
+        padding-top: 2em;
+        background-size: 95%;
+    }
+    .pc-1 h2 {
+        font-family: "Kode Mono", monospace;
+        color:aqua;
+        padding-top: 1.5em;
+        padding-left: 2em;
+    
+    }
+    .pc-1 p {
+        font-family: "Kode Mono", monospace;
+        width: 120%;
+        line-height: 1,2em;
+        font-size: 1em;
+        color:rgb(255, 255, 255);
+        padding-top: 1em;
+        padding-left: 2em;
+        font-weight: bold;
+    }
+}
+
+
+
+
+
+
+
+
+/*celular screen*/
+
+@media screen and (max-width:600px) {
+    .pc-1 {
+        background-image: url(../img/thinkpad\ \(1\).png);
+        padding-bottom: 4em;
+        padding-left: 2em;
+        padding-top: 2em;
+        background-size: 95%;
+    }
+    .pc-1 h2 {
+        font-family: "Kode Mono", monospace;
+        color:aqua;
+        padding-top: 1.5em;
+        padding-left: 2em;
+    
+    }
+    .pc-1 p {
+        font-family: "Kode Mono", monospace;
+        width: 120%;
+        line-height: 1,2em;
+        font-size: 1em;
+        color:rgb(255, 255, 255);
+        padding-top: 1em;
+        padding-left: 2em;
+        font-weight: bold;
+    }
+
+    .productos {
+        width: 100%;
+    }
+
+    .productos td {
+        width: 100%;
+        display: block;
+    }
+
+    .tarjeta {
+        margin-bottom: 20px;
+    }
+
+    @media screen and (min-width: 601px) {
+        .productos {
+            display: table;
+        }
+
+        .productos td {
+            display: table-cell;
+        }
+
+        .tarjeta {
+            margin-bottom: 0;
+        }
+    }
+}
+
+
+
+/* pantalla tableta */
+@media screen and (min-width:600px) and (max-width:900px) {
+    .pc-1 {
+        background-image: url(../img/thinkpad\ \(1\).png);
+        padding-bottom: 4em;
+        padding-left: 2em;
+        padding-top: 2em;
+        background-size: 95%;
+    }
+    .pc-1 h2 {
+        font-family: "Kode Mono", monospace;
+        color:aqua;
+        padding-top: 1.5em;
+        padding-left: 2em;
+    
+    }
+    .pc-1 p {
+        font-family: "Kode Mono", monospace;
+        width: 100%;
+        line-height: 1,4em;
+        font-size: 1em;
+        color:rgb(255, 255, 255);
+        padding-top: 1em;
+        padding-left: 2em;
+        font-weight: bold;
+    }
+
+}

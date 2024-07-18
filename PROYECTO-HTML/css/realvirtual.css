@@ -1,0 +1,84 @@
+.realidad-1 {
+    background-image: url(../img/FONDOTE.jpg);
+    padding-bottom: 8em;
+    padding-left: 2em;
+    padding-top: 2em;
+}
+.realidad-1 h2 {
+    font-family: "Kode Mono", monospace;
+    color:aqua;
+    padding-top: 1.5em;
+    padding-left: 2em;
+
+}
+.realidad-1 p {
+    font-family: "Kode Mono", monospace;
+    width: 80%;
+    line-height: 1,3em;
+    font-size: 1.4em;
+    color:black;
+    padding-top: 1em;
+    padding-left: 2em;
+    font-weight: bold;
+}
+.imagen-real {
+    width: 45%;
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 10em;
+    margin-left: 5em;
+}
+.texto-real {
+    width: 45%;
+    display: inline-block;
+    vertical-align: top;
+    padding-bottom: 2em;
+    
+}
+
+.catalogo {
+    font-family: "Kode Mono", monospace;
+    text-align: center;
+    font-size: 4em;
+
+}
+
+.tarjeta {
+    width:100%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.album {
+    width:80%;
+    box-shadow: 0 4px 8px 0;
+    background-color: rgb(20, 19, 20);
+
+}
+.contenido{
+    padding: 0.5em;
+}
+
+
+.letra {
+    padding: 1em;
+    color: #da1b94;
+    font-size: 1em;
+}
+
+.precio{
+    color: white;
+}
+
+.catalogo {
+    margin-left: 1em;
+}
+
+.productos {
+    margin-left: 2em;
+    padding-top: 3em;
+}
+.album:hover {
+    transform: scale(1.2);
+    transition: transform .4s;
+}

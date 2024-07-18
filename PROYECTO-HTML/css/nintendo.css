@@ -1,0 +1,30 @@
+.nintendo-1 {
+    background-image: url(../img/NINTENDODEFINITIVO.JPG);
+    padding-bottom: 6em;
+    padding-left: 2em;
+    padding-top: 2em;
+    border-top: dashed #da1b94;
+}
+.texto-nintendo{
+    margin-left: 2em;
+    width: 50%;
+
+}
+
+.nintendo-1 h2 {
+    font-family: "Kode Mono", monospace;
+    color:aqua;
+    padding-top: 1.5em;
+    padding-left: 2em;
+
+}
+.nintendo-1 p {
+    font-family: "Kode Mono", monospace;
+    width: 80%;
+    line-height: 1,3em;
+    font-size: 1.2em;
+    color:white;
+    padding-top: 1em;
+    padding-left: 2em;
+    font-weight: bold;
+}

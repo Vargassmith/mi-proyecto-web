@@ -1,0 +1,137 @@
+@media (min-width: 866px) and (max-width:1024px) {
+    .play-1 {
+        background-image: url(../img/paraplay5\ \(1\).png);
+        background-size: 100%;
+        padding-bottom: 6em;
+        padding-left: 2em;
+        padding-top: 2em;
+        border-top: dashed #da1b94;
+    }
+    .texto-play{
+        margin-left: 28em;
+        width: 55%;
+    
+    }
+    
+    .play-1 h2 {
+        font-family: "Kode Mono", monospace;
+        color:aqua;
+        padding-top: 1.5em;
+        padding-left: 2em;
+    
+    }
+    .play-1 p {
+        font-family: "Kode Mono", monospace;
+        width: 90%;
+        line-height: 1,3em;
+        font-size: 1em;
+        color:white;
+        padding-top: 1em;
+        padding-left: 2em;
+        font-weight: bold;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:600px) {
+    .play-1 {
+        background-image: url(../img/paraplay5\ \(1\).png);
+        background-size: 65%;
+        padding-bottom: 6em;
+        padding-left: 2em;
+        padding-top: 2em;
+        border-top: dashed #da1b94;
+    }
+    .texto-play{
+        margin-left: 3em;
+        width: 80%;
+    
+    }
+    
+    .play-1 h2 {
+        font-family: "Kode Mono", monospace;
+        color:aqua;
+        padding-top: 1.5em;
+        padding-left: 2em;
+    
+    }
+    .play-1 p {
+        font-family: "Kode Mono", monospace;
+        width: 80%;
+        line-height: 1,3em;
+        font-size: 1.2em;
+        color:white;
+        padding-top: 1em;
+        padding-left: 2em;
+        font-weight: bold;
+    }
+    .productos {
+        width: 100%;
+    }
+
+    .productos td {
+        width: 100%;
+        display: block;
+    }
+
+    .tarjeta {
+        margin-bottom: 20px;
+    }
+
+    @media screen and (min-width: 601px) {
+        .productos {
+            display: table;
+        }
+
+        .productos td {
+            display: table-cell;
+        }
+
+        .tarjeta {
+            margin-bottom: 0;
+        }
+    }
+}
+
+/* pantalla tableta */
+@media screen and (min-width:600px) and (max-width:900px){
+    .play-1 {
+        background-image: url(../img/paraplay5\ \(1\).png);
+        background-size: 100%;
+        padding-bottom: 6em;
+        padding-left: 2em;
+        padding-top: 2em;
+        border-top: dashed #da1b94;
+    }
+    .texto-play{
+        margin-left: 22em;
+        width: 55%;
+    
+    }
+    
+    .play-1 h2 {
+        font-family: "Kode Mono", monospace;
+        color:aqua;
+        padding-top: 1.5em;
+        padding-left: 2em;
+    
+    }
+    .play-1 p {
+        font-family: "Kode Mono", monospace;
+        width: 90%;
+        line-height: 1,3em;
+        font-size: 1em;
+        color:white;
+        padding-top: 1em;
+        padding-left: 2em;
+        font-weight: bold;
+    }
+}

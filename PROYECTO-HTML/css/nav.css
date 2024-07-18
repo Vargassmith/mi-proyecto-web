@@ -1,0 +1,104 @@
+.logo{
+    display: inline-block;
+    width: 10%;
+    margin-left: 4em;
+}
+nav {
+    background-color: black;
+}
+nav ul li  {
+    display: inline-block;
+    margin-left: 2em;
+}
+ul {
+    display: inline-block;
+    margin-left: 26em;
+    vertical-align: top;
+    margin-top: 4em;
+}
+nav a {
+    color: #da1b94 ;
+    text-decoration: none;
+    font-family: "Kode Mono", monospace;
+}
+nav a:hover {
+    transition: 0.8s;
+    color: aquamarine;
+    font-size:1.3em;
+    border-bottom: solid aquamarine;
+}
+
+
+/*celular screen*/
+
+@media screen and (max-width:600px) {
+    .logo{
+        width: 40%;
+        margin-left: 10em;
+    }
+    nav {
+        background-color: black;
+        width:100%;
+    }
+    nav ul li  {
+        display: inline-block;
+        margin-left: 1em;
+    }
+    ul {
+        display: inline-block;
+        margin-left: 2em;
+        vertical-align: top;
+        margin-top: 0.5em;
+        font-size: 0.9em;
+    }
+    nav a {
+        color: #da1b94 ;
+        text-decoration: none;
+        font-family: "Kode Mono", monospace;
+    }
+    nav a:hover {
+        transition: 0.8s;
+        color: aquamarine;
+        font-size:1.3em;
+        border-bottom: solid aquamarine;
+    }
+}
+
+/* pantalla tableta */
+@media screen and (min-width:600px) and (max-width:900px) {
+    .logo{
+        width: 40%;
+        margin-left: 10em;
+    }
+
+    nav {
+        background-color: black;
+    }
+    nav ul li  {
+        display: inline-block;
+        margin-left: 2em;
+    }
+    ul {
+        display: inline-block;
+        margin-left: 3em;
+        vertical-align: top;
+        margin-top: 0.5em;
+        font-size: 1em;
+    }
+    nav a {
+        color: #da1b94 ;
+        text-decoration: none;
+        font-family: "Kode Mono", monospace;
+    }
+    nav a:hover {
+        transition: 0.8s;
+        color: aquamarine;
+        font-size:1.3em;
+        border-bottom: solid aquamarine;
+    }
+
+}
+
+
+
+
